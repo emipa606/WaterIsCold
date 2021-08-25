@@ -1,20 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Water is Cold</name>
-	<author>Cozarkian</author>
+  <name>Water is Cold (Continued)</name>
+  <packageId>Mlie.WaterIsCold</packageId>
+  <author>Cozarkian</author>
+  <url>https://github.com/emipa606/WaterIsCold</url>
   <supportedVersions>
-		<li>1.2</li>
+    <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
-  <packageId>Cozarkian.WaterIsCold</packageId>
   <modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
   </modDependencies>
-  <description>Makes water cold, deep, and fun.
-  </description>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Cozarkians mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2367488641
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/WaterIsCold][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+[h1]Features[/h1]
+Makes water cold, deep, and fun. 
+
+[b][u]1. Water Is Cold [/u][/b]
+
+Travelling through water or walking in rain now applies a hediff that increases the max and min comfortable temperatures. Getting wet is now refreshing when it is hot and deadly when it is cold. 
+
+The following affect the initial severity of the hediff:
+[list]
+[*] Depth of Water
+[*] Wearing a jacket (shell) (decreases severity)
+[*] Wearing multiple layers of clothing (decreases severity)
+[*] Wearing single layer of clothing (increases severity)
+[/list]
+The duration of the hediff depends on the ambient temperature. Removing/adding "onskin" or "middle" layers of clothing will immediately reduce the severity, so keep some spare dry clothes in cold, rainy biomes.
+
+[Update Jan. 2021]
+Being wet now reduces the insulation value of clothing. In cold biomes, it will now be more important than ever to wear multiple layers when it is raining, and to keep a set of dry clothes indoors. Swimming in deep water will make even parkas and power armor worthless. You can set a minimum % in the settings or completely disable this feature by setting it to 100%.
+
+To compensate, the direct effect of getting wet on the minimum comfortable temperatue has been reduced. Naked, wet pawns in 21C/70F weather are no longer at risk of hypothermia, but they might still get a little cold.
+
+Modders can make swim suits, wet suits, dry suits, or waders by adding the def mod extension WaterIsCold.WaterGear. Such clothes won't lose insulation value when wet.
+
+2. [b][u]Water Is Deep[/u][/b]
+
+Pawns moving through deep water no longer appear to walk on water.
+
+3.  [b][u]Water Is Fun[/u][/b]
+
+New swimming recreation activity. Pawns are more likely to go swimming when the weather is warm.  Pawns will only swim in terrain given a DefModExtension of "WaterIsCold.SwimmableWater". This prevents pawns from swimming in mod added "water" such as slime, tar or lava.
+
+[Update Jan. 2021]
+Improved swimming to increase the ratio of time spent gaining recreation v. traveling. Pawns are also less likely to go swimming at high recreation levels, to ensure swimming trips are efficient.
+
+Slightly reduced the range pawns will go swimming and adding a setting to adjust it. Pawns will no longer swim on the very edge of the map or in extremely small ponds.
+
+Pawns no longer get a soaking wet thought debuff when swimming. You can also disable the thought when warm, or permanently.
+
+[h1]Compatibility &amp; Configuration[/h1]
+
+Settings available if you hate cold water, deep water, or fun.
+
+Integrates new weather and hot springs from ReGrowth Core.
+Integrates red water from Alpha Biomes.
+Integrates lagoons from BiomesCore.
+Shares swimming joy kind with Dubs Bad Hygiene.
+
+[url=https://github.com/Cozarkian/WaterIsCold]Github Version[/url]
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
 
