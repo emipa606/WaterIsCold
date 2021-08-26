@@ -10,7 +10,17 @@ namespace WaterIsCold
         [HarmonyPatch(typeof(PawnRenderer), "RenderPawnInternal")]
         private static void Prefix(ref bool renderBody, Pawn ___pawn)
         {
-            if (!ModSettings_WaterIsCold.deepWater || !renderBody)
+            if (!renderBody)
+            {
+                return;
+            }
+
+            if (___pawn == null || ___pawn.Dead)
+            {
+                return;
+            }
+
+            if (!ModSettings_WaterIsCold.deepWater)
             {
                 return;
             }
