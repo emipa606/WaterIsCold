@@ -20,6 +20,11 @@ namespace WaterIsCold
                 return;
             }
 
+            if (___pawn.CarriedBy != null)
+            {
+                return;
+            }
+
             if (!ModSettings_WaterIsCold.deepWater)
             {
                 return;

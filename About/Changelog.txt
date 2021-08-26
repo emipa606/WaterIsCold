@@ -1,5 +1,8 @@
 # Changelog for WaterIsCold
 
+1.0.3.0 - Should now work when pawns are carried
+
+
 1.0.2.0 - Should no longer cause issues for corpses
 
 
