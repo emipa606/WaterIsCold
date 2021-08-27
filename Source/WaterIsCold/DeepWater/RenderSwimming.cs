@@ -15,7 +15,7 @@ namespace WaterIsCold
                 return;
             }
 
-            if (___pawn == null || ___pawn.Dead)
+            if (___pawn == null || ___pawn.Dead || ___pawn.Map == null)
             {
                 return;
             }

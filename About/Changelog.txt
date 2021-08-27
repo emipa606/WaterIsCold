@@ -1,5 +1,8 @@
 # Changelog for WaterIsCold
 
+1.0.4.0 - Should not cause issues before game-start
+
+
 1.0.3.0 - Should now work when pawns are carried
 
 
