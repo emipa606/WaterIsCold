@@ -16,7 +16,7 @@ namespace WaterIsCold
             if (mem != ThoughtDef.Named("SoakingWet"))
             {
                 if (ModLister.GetActiveModWithIdentifier("ReGrowth.BOTR.Core") == null ||
-                    mem != ThoughtDef.Named("RG_Wet") && mem != ThoughtDef.Named("RG_CompletelyWet"))
+                    mem != ThoughtDef.Named("RG_Wet") && mem != ThoughtDef.Named("RG_ExtremelyWet"))
                 {
                     return true;
                 }

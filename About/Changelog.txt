@@ -1,5 +1,8 @@
 # Changelog for WaterIsCold
 
+1.0.5.0 - Regrowth-mod had changed its hediff-name for very wet
+
+
 1.0.4.0 - Should not cause issues before game-start
 
 

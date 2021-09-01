@@ -1,14 +1,23 @@
 # WaterIsCold
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Cozarkians mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2367488641
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/WaterIsCold]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 # Features
 
@@ -51,7 +60,7 @@ Slightly reduced the range pawns will go swimming and adding a setting to adjust
 
 Pawns no longer get a soaking wet thought debuff when swimming. You can also disable the thought when warm, or permanently.
 
-# Compatibility &amp; Configuration
+# Compatibility and Configuration
 
 
 Settings available if you hate cold water, deep water, or fun.
@@ -63,7 +72,7 @@ Shares swimming joy kind with Dubs Bad Hygiene.
 
 https://github.com/Cozarkian/WaterIsCold]Github Version
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
