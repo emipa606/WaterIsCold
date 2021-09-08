@@ -1,5 +1,8 @@
 # Changelog for WaterIsCold
 
+1.0.7.0 - Missed the updated translation file
+
+
 1.0.6.0 - Some translation errors and an error catch regarding dryads
 
 
