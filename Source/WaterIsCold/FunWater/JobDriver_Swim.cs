@@ -52,26 +52,26 @@ namespace WaterIsCold
             var terrain = pawn.Position.GetTerrain(pawn.Map);
             if (!terrain.IsWater)
             {
-                return "Going for a swim".Translate();
+                return "WIC.goingswim".Translate();
             }
 
             if (terrain == TerrainDefOf.WaterShallow || terrain == TerrainDefOf.WaterMovingShallow ||
                 terrain == TerrainDefOf.WaterOceanShallow)
             {
-                return "Wading".Translate();
+                return "WIC.wading".Translate();
             }
 
             if (terrain == TerrainDefOf.WaterOceanDeep)
             {
-                return "Body surfing".Translate();
+                return "WIC.bodysurfing".Translate();
             }
 
             if (terrain == TerrainDefOf.WaterDeep)
             {
-                return "Treading water".Translate();
+                return "WIC.treadingwater".Translate();
             }
 
-            return "Swimming".Translate();
+            return "WIC.swimming".Translate();
         }
     }
 }

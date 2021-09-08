@@ -30,11 +30,19 @@ namespace WaterIsCold
                 return;
             }
 
-            var terrain = ___pawn.Position.GetTerrain(___pawn.Map);
-            if (terrain == TerrainDefOf.WaterMovingChestDeep || terrain == TerrainDefOf.WaterOceanDeep ||
-                terrain == TerrainDefOf.WaterDeep)
+            try
             {
-                renderBody = false;
+                var terrain = ___pawn.Position.GetTerrain(___pawn.Map);
+                if (terrain != null && terrain == TerrainDefOf.WaterMovingChestDeep ||
+                    terrain == TerrainDefOf.WaterOceanDeep ||
+                    terrain == TerrainDefOf.WaterDeep)
+                {
+                    renderBody = false;
+                }
+            }
+            catch
+            {
+                // ignored
             }
         }
     }
