@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<modNameReadable>WaterIsCold</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2584867168</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>WaterIsCold_1_0_9_0</defName>
+		<assemblyVersion>1.0.9.0</assemblyVersion>
+		<content>The original version of this mod has been updated, please use it instead. This version will remain, but unlisted and will not be updated further.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+
